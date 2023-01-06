@@ -1,2 +1,2 @@
 # Landing-Page
-A landing page project
+A project of a landing page
