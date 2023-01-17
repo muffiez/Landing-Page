@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .header {
     display: flex;
@@ -125,7 +126,6 @@ a:hover, a:visited, a:link, a:active {
     padding-bottom: 100px;
     display: flex;
     flex-direction: column;
-
 }
 
 .q1 {
@@ -136,6 +136,45 @@ a:hover, a:visited, a:link, a:active {
 .q2 {   
     display: flex;
     justify-content: flex-end;
+    font-weight: bold;
     margin-top: 0;
     padding-right: 200px;
+}
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 7px;
+    margin: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.bleft {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.b2 {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-right: 100px;
+}
+.action {
+    margin-bottom: 0;
+    margin-top: 40px;
+}
+.signup {
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+.footer {
+    background-color: #1F2937;
+    color: #f9faf8;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
 }
